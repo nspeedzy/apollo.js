@@ -2,9 +2,8 @@
   "name": "polo.js",
   "version": "1.0.0",
   "description": "A custom discord.js framework for my bot projects",
-  "main": "dist/polo.js",
+  "main": "lib/polo.js",
   "private": true,
-  "types": "typings",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc -p ."
@@ -13,6 +12,7 @@
     "lib/",
     "typings/"
   ],
+  "types": "typings",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nspeedzy/polo.js.git"
