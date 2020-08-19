@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "target": "ES2018",
+        "declaration": true,
+        "declarationDir": "typings",
+        "declarationMap": true,
+        "sourceMap": true,
+        "outDir": "lib"
+    },
+    "include": ["src"],
+    "exclude": ["node_modules"]
+}

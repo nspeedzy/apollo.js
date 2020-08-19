@@ -1,0 +1,39 @@
+{
+  "name": "polo.js",
+  "version": "1.0.0",
+  "description": "A custom discord.js framework for my bot projects",
+  "main": "dist/polo.js",
+  "private": true,
+  "types": "typings",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p ."
+  },
+  "files": [
+    "lib/",
+    "typings/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nspeedzy/polo.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nspeedzy/polo.js/issues"
+  },
+  "homepage": "https://github.com/nspeedzy/polo.js#readme",
+  "keywords": [
+    "discord.js",
+    "bot",
+    "framework",
+    "custom"
+  ],
+  "dependencies": {
+    "discord.js": "12.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "12.12.2",
+    "typescript": "3.4.3"
+  },
+  "author": "nspeedzy",
+  "license": "MIT"
+}
