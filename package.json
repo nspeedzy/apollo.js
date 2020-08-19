@@ -5,8 +5,8 @@
   "main": "lib/polo.js",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc -p ."
+    "build": "tsc -p .",
+    "git": "git add . && git commit -m \"Second commit\" && git push --set-upstream https://github.com/nspeedzy/polo.js.git master"
   },
   "files": [
     "lib/",
