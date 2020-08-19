@@ -4,6 +4,7 @@
   "description": "A custom discord.js framework for my bot projects",
   "main": "lib/polo.js",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "tsc -p .",
     "git": "git add . && git commit -m \"Second commit\" && git push --set-upstream https://github.com/nspeedzy/polo.js.git master"
