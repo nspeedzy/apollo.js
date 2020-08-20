@@ -1,2 +1,2 @@
-declare function add(...params: any[]): void;
+declare function add(...params: any[]): any[];
 export { add };
