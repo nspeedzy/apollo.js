@@ -4,7 +4,8 @@
         "target": "ES2018",
         "strict": false,
         "outDir": "lib",
-        "esModuleInterop": true
+        "esModuleInterop": true,
+        "skipLibCheck": true
     },
     "exclude": ["node_modules"],
     "files": ["src/polo.ts"]
