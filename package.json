@@ -5,7 +5,7 @@
   "main": "lib/polo.js",
   "private": true,
   "scripts": {
-    "build": "tsc -p tsconfig.json",
+    "build": "tsc",
     "git": "git add . && git commit -m \"Second commit\" && git push --set-upstream https://github.com/nspeedzy/polo.js.git master"
   },
   "files": [

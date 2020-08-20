@@ -4,7 +4,7 @@ import {
 } from "discord.js";
 export const version: string = "1.0.0";
 //#region TypeDefs
-export type ReadyEvent = string | ((client: PoloClient) => string);
+export type ReadyEvent = (client: PoloClient) => string;
 export interface PoloClientOptions extends ClientOptions {
     prefix?: string | string[];
     prefixCaseInsensitive?: boolean;
@@ -21,13 +21,18 @@ export class PoloClient extends Client {
     public constructor(options?: PoloClientOptions) {
         super(options);
         this.once("ready", () => {
-            console.log("Ready");
+            if (typeof options.onready === "undefined") {
+                console.log("Ready!");
+            } else {
+                console.log(options.onready(this));
+            }
         });
     }
     public login(token?: string): Promise<string> {
         return super.login(token);
     }
 }
+export { PoloClient as Client };
 export class PoloError extends Error {
     constructor(type: string, msg: string) {
         super(msg);
