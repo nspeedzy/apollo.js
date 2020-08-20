@@ -10,8 +10,7 @@
     "git": "git add . && git commit -m \"Second commit\" && git push --set-upstream https://github.com/nspeedzy/polo.js.git master"
   },
   "files": [
-    "lib/",
-    "typings/"
+    "lib/"
   ],
   "types": "lib/polo.d.ts",
   "repository": {
