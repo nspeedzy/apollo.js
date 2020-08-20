@@ -21,10 +21,10 @@ export class PoloClient extends Client {
     public constructor(options?: PoloClientOptions) {
         super(options);
         this.once("ready", () => {
-            if (typeof options?.onready === "function") {
+            if (typeof options.onready === "function") {
                 options.onready(this);
             } else {
-                console.log(options?.onready);
+                console.log(options.onready);
             }
         });
     }
