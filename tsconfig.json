@@ -8,12 +8,8 @@
         "declarationDir": "typings",
         "sourceMap": true,
         "outDir": "lib",
-        "baseUrl": ".",
-        "paths": {
-            "polo.js": ["src"]
-        }
+        "baseUrl": "."
     },
-    "include": ["src"],
     "exclude": ["node_modules"],
     "files": ["src/polo.ts"]
 }
