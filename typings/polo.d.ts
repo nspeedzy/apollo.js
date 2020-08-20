@@ -1,5 +1,3 @@
-declare module polo {
-    const version: string;
-}
-export default polo;
+export * from "./client/client";
+export * from "./client/add";
 //# sourceMappingURL=polo.d.ts.map

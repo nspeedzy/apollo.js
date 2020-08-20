@@ -1,13 +1,19 @@
 {
     "compilerOptions": {
         "module": "CommonJS",
-        "target": "ES6",
+        "target": "ES2019",
+        "lib": ["ESNext"],
         "declaration": true,
         "declarationDir": "typings",
         "declarationMap": true,
         "sourceMap": true,
-        "outDir": "lib"
+        "outDir": "lib",
+        "baseUrl": ".",
+        "paths": {
+            "polo.js": ["src"]
+        }
     },
     "include": ["src"],
-    "exclude": ["node_modules"]
+    "exclude": ["node_modules"],
+    "files": ["src/polo.d.ts"]
 }
