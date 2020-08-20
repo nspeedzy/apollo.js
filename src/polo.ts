@@ -1,2 +1,3 @@
-export * from "./client/client";
-export * from "./client/add";
+export function add(...params: any[]) {
+    //
+}
