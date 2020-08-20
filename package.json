@@ -13,7 +13,7 @@
     "lib/",
     "typings/"
   ],
-  "types": "typings/polo.d.ts",
+  "types": "lib/polo.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nspeedzy/polo.js.git"
