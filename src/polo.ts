@@ -21,19 +21,7 @@ export class PoloClient extends Client {
     public constructor(options?: PoloClientOptions) {
         super(options);
         this.once("ready", () => {
-            try {
-                if (typeof options.onready === "undefined") {
-                    console.log("");
-                } else {
-                    if (typeof options.onready === "function") {
-                        options.onready(this);
-                    } else {
-                        console.log(options.onready);
-                    }
-                }
-            } catch (e) {
-                console.log("An error occured. But it's not your fault");
-            }
+            console.log("Ready");
         });
     }
     public login(token?: string): Promise<string> {
