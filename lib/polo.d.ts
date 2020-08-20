@@ -96,4 +96,54 @@ declare module "polo.js" {
     export class PoloGuild extends Guild {  }
 
     export class PoloUser extends User {  }
+
+//#region Constants
+
+    export namespace permissions {
+        /**
+         * General Permissions
+         */
+        export enum GeneralPerms {
+            ADMINISTRATOR,
+            VIEW_AUDIT_LOGS,
+            VIEW_SERVER_INSIGHTS,
+            MANAGE_SERVER,
+            MANAGE_ROLES,
+            MANAGE_CHANNELS,
+            KICK_MEMBERS,
+            BAN_MEMBERS,
+            CHANGE_NICKNAME,
+            MANAGE_NICKNAMES,
+            MANAGE_EMOJIS,
+            MANAGE_WEBHOOKS,
+            VIEW_CHANNELS
+        }
+        /**
+         * Text permissions
+         */
+        export enum TextPerms {
+            SEND_MESSAGES,
+            SEND_TTS_MESSAGES,
+            MANAGE_MESSAGES,
+            EMBED_LINKS,
+            ATTACH_FILES,
+            READ_MESSAGE_HISTORY,
+            MENTION_EVERYONE,
+            USE_EXTERNAL_EMOJIS,
+            ADD_REACTIONS
+        }
+        /**
+         * Voice permissions
+         */
+        export enum VoicePerms {
+            CONNECT,
+            SPEAK,
+            VIDEO,
+            MUTE_MEMBERS,
+            DEAFEN_MEMBERS,
+            MOVE_MEMBERS,
+            USE_VOICE_ACTIVITY,
+            PRIORITY_SPEAKER
+        }
+    }
 }
