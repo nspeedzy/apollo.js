@@ -27,7 +27,7 @@ declare module "polo.js" {
         /**
          * Executed when Client is ready
          */
-        onready?(client: PoloClient): string;
+        onready(client: PoloClient): string;
         /**
          * The bot owner(s). Please make sure you specify the user's tag
          */
@@ -64,7 +64,7 @@ declare module "polo.js" {
          * The `PoloClient` constructor
          * @param {PoloClientOptions} options The desired options you want for your bot
          */
-        public constructor(options?: PoloClientOptions);
+        public constructor(options: PoloClientOptions);
         /**
          * Logs the client in, establishing a websocket connection to Discord.
          * @param {string} token Token of the account to log in with
