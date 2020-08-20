@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "target": "ES2018",
+        "strict": true,
+        "declaration": true,
+        "declarationDir": "typings"
+    },
+    "exclude": [
+        "src",
+        "node_modules"
+    ],
+    "files": ["src/polo.ts"]
+}
