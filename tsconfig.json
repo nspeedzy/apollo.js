@@ -4,11 +4,8 @@
         "target": "ES2018",
         "strict": true,
         "declaration": true,
-        "declarationDir": "typings"
+        "outDir": "lib"
     },
-    "exclude": [
-        "src",
-        "node_modules"
-    ],
-    "files": ["src/polo.ts"]
+    "include": ["src"],
+    "exclude": ["node_modules"]
 }
