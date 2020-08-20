@@ -20,6 +20,13 @@ export interface PoloOptions {}
 export class PoloClient extends Client {
     public constructor(options?: PoloClientOptions) {
         super(options);
+        this.once("ready", () => {
+            if (typeof options?.onready === "function") {
+                options.onready(this);
+            } else {
+                console.log(options?.onready);
+            }
+        });
     }
     public login(token?: string): Promise<string> {
         return super.login(token);
