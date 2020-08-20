@@ -1,3 +1,5 @@
-export function add(...params: any[]) {
-    //
+function add(...params: any[]) {
+    console.log(params);
 }
+//
+export { add };
