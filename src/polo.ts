@@ -17,7 +17,7 @@ export interface PoloClientOptions extends ClientOptions {
 export interface PoloOptions {}
 //#region Classes
 export class PoloClient extends Client {
-    public constructor(options?: PoloClientOptions) {
+    public constructor(options: PoloClientOptions) {
         super(options);
         this.once("ready", () => {
             console.log(options.onready(this));
