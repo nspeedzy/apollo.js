@@ -11,8 +11,6 @@ declare module "polo.js" {
 
 //#region TypeDefs
 
-    export type ReadyEvent = string | ((client: PoloClient) => string);
-
     /**
      * PoloClient options
      */
@@ -29,7 +27,7 @@ declare module "polo.js" {
         /**
          * Executed when Client is ready
          */
-        onready?: ReadyEvent;
+        onready?(client: PoloClient): string;
         /**
          * The bot owner(s). Please make sure you specify the user's tag
          */
@@ -51,7 +49,7 @@ declare module "polo.js" {
          * Specify whether to disable all Polo defaults. Default is
          * `false`
          */
-        disableAllDefaults: boolean;
+        disableAllDefaults?: boolean;
     }
 
     /**
