@@ -14,6 +14,7 @@ export interface PoloClientOptions extends ClientOptions {
     language?: string;
     disableAllDefaults?: boolean;
 }
+//
 export interface PoloOptions {}
 //#region Classes
 export class PoloClient extends Client {
@@ -28,6 +29,7 @@ export class PoloClient extends Client {
     }
 }
 export { PoloClient as Client };
+//
 export class PoloError extends Error {
     constructor(type: string, msg: string) {
         super(msg);
@@ -37,8 +39,11 @@ export class PoloError extends Error {
         console.error(this.message);
     }
 }
+//
 export class PoloGuild extends Guild {}
+//
 export class PoloUser extends User {}
+//
 export namespace permissions {
     export enum GeneralPerms {
         ADMINISTRATOR = 8,
