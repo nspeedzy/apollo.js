@@ -91,8 +91,14 @@ declare module "polo.js" {
         public throw(): void;
     }
 
+    /**
+     * Represents a guild
+     */
     export class PoloGuild extends Guild {  }
 
+    /**
+     * Represents a user
+     */
     export class PoloUser extends User {  }
 
 //#region Constants
