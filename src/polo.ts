@@ -7,4 +7,6 @@ export * from "./core/permissions";
 export * from "./core/user";
 //#endregion
 //#region Utilities
-//export * from "";
+export * from "./utilities/client";
+export * from "./utilities/guild";
+//#endregion
