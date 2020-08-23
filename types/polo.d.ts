@@ -7,7 +7,17 @@ declare module "polo.js" {
         User
     } from "discord.js";
 
-    export const version: string;
+    export namespace info {
+        /**
+         * The version of the polo.js framework
+         */
+        export const version: string;
+        /**
+         * Requirements needed for polo.js to 
+         * function properly
+         */
+        export const requires: string[];
+    }
 
 //#region TypeDefs
 
@@ -59,6 +69,9 @@ declare module "polo.js" {
 
 //#region Classes
 
+    /**
+     * The main polo class
+     */
     export class PoloClient extends Client {
         /**
          * The `PoloClient` constructor
