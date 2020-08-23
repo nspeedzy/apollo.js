@@ -1,8 +1,8 @@
 //#region Core
-export * from "./lib/client";
-export * from "./lib/error";
-export * from "./lib/guild";
-export * from "./lib/options";
-export * from "./lib/permissions";
-export * from "./lib/user";
+export * from "./core/client";
+export * from "./core/error";
+export * from "./core/guild";
+export * from "./core/options";
+export * from "./core/permissions";
+export * from "./core/user";
 //#endregion
