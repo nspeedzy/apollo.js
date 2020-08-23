@@ -6,11 +6,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 //#region Core
 __export(require("./core/info"));
 __export(require("./core/error"));
-__export(require("./utilities/guild"));
 __export(require("./core/permissions"));
-__export(require("./core/user"));
 //#endregion
 //#region Utilities
 __export(require("./utilities/client"));
 __export(require("./utilities/guild"));
+__export(require("./utilities/user"));
 //#endregion
