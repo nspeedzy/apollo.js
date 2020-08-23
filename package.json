@@ -2,17 +2,18 @@
   "name": "polo.js",
   "version": "1.0.0",
   "description": "A custom discord.js framework for my bot projects",
-  "main": "lib/polo.js",
+  "main": "dist/polo.js",
   "private": true,
+  "typings": "types/polo.d.ts",
   "scripts": {
     "build": "tsc",
     "git": "git add . && git commit -m \"Second commit\" && git push --set-upstream https://github.com/nspeedzy/polo.js.git master",
-    "start": "node lib/polo.js"
+    "start": "node dist/polo.js"
   },
   "files": [
-    "lib/"
+    "dist/",
+    "types/"
   ],
-  "types": "lib/polo.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nspeedzy/polo.js.git"
