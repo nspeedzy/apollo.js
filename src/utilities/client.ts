@@ -1,5 +1,5 @@
 import { Client, ClientOptions } from "discord.js";
-import { PoloOptions } from "./options";
+import { PoloOptions } from "../core/options";
 //
 export interface PoloClientOptions extends ClientOptions {
     prefix?: string | string[];

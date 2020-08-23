@@ -5,9 +5,10 @@ function __export(m) {
 Object.defineProperty(exports, "__esModule", { value: true });
 //#region Core
 __export(require("./core/info"));
-__export(require("./core/client"));
 __export(require("./core/error"));
-__export(require("./core/guild"));
+__export(require("./utilities/guild"));
 __export(require("./core/permissions"));
 __export(require("./core/user"));
 //#endregion
+//#region Utilities
+//export * from "";
