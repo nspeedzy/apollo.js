@@ -12,4 +12,5 @@ __export(require("./core/permissions"));
 __export(require("./utilities/client"));
 __export(require("./utilities/guild"));
 __export(require("./utilities/user"));
+__export(require("./utilities/util"));
 //#endregion
