@@ -114,6 +114,26 @@ declare module "polo.js" {
      */
     export class PoloUser extends User {  }
 
+    /**
+     * Utilities for creating commands, evvents and arguments
+     */
+    export class Util {
+        /**
+         * The `Util` constructor
+         * @param {PoloClient} client The PoloClient instance
+         */
+        public constructor(client: PoloClient);
+        /**
+         * Checks if the user input is a class or not
+         * @param input The class to be inputted
+         */
+        public isClass(input: any): boolean;
+        /**
+         * Get the current directory of the user
+         */
+        get directory(): string;
+    }
+
 //#region Constants
 
     export namespace permissions {
