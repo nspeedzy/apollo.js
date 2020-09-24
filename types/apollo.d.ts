@@ -129,9 +129,11 @@ declare module "apollo" {
          */
         public isClass(input: any): boolean;
         /**
-         * Get the current directory of the user
+         * Loads all commands from the specified
+         * directory asyncronously
+         * @param {string} dir The directory to load all the commands from 
          */
-        get directory(): string;
+        public loadCommands(dir: string): Promise<void>;
     }
 
 //#region Constants
