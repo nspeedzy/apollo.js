@@ -14,7 +14,7 @@ class Util {
     }
     //
     get directory() {
-        return `Dirname`;
+        return `${__dirname}`;
     }
 }
 exports.Util = Util;
