@@ -115,7 +115,7 @@ declare module "apollo" {
     export class PoloUser extends User {  }
 
     /**
-     * Utilities for creating commands, evvents and arguments
+     * Utilities for creating commands, events and arguments
      */
     export class Util {
         /**
