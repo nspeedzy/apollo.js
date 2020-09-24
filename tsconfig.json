@@ -8,5 +8,5 @@
         "skipLibCheck": true
     },
     "exclude": ["node_modules"],
-    "files": ["src/polo.ts"]
+    "files": ["src/apollo.ts"]
 }

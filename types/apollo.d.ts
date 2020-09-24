@@ -1,4 +1,4 @@
-declare module "polo.js" {
+declare module "apollo" {
 
     import {
         Client,
