@@ -1,5 +1,5 @@
 {
-  "name": "apollo.js",
+  "name": "apollo",
   "version": "1.0.0",
   "description": "A custom discord.js framework for my bot projects",
   "main": "dist/apollo.js",
