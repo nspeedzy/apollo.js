@@ -1,7 +1,11 @@
 import path from "path";
 import { promisify } from "util";
-import fg from "fast-glob";
+import glob from "glob";
 import { PoloClient } from "./client";
+//
+export interface ClassConstructor {
+    new(...params: any[]): any;
+}
 //
 export class Util {
     public client: PoloClient;
@@ -10,13 +14,13 @@ export class Util {
         this.client = client;
     }
     //
-    public isClass(input: any): boolean {
+    public isClass(input: ClassConstructor): boolean {
         return typeof input === "function" &&
         typeof input.prototype === 'object' &&
-        input.toString().substring(0, 5) === 'class'
+        input.toString().substring(0, 5) === 'class';
     }
     //
     get directory(): string {
-        return `Dirname`;
+        return `${__dirname}`;
     }
 }

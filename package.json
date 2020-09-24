@@ -30,7 +30,8 @@
   ],
   "dependencies": {
     "discord.js": "12.3.1",
-    "fast-glob": "3.2.4"
+    "glob": "7.1.6",
+    "@types/glob": "5.0.35"
   },
   "devDependencies": {
     "@types/node": "12.12.2",
