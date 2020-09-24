@@ -16,12 +16,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nspeedzy/polo.js.git"
+    "url": "git+https://github.com/nspeedzy/apollo.js.git"
   },
   "bugs": {
-    "url": "https://github.com/nspeedzy/polo.js/issues"
+    "url": "https://github.com/nspeedzy/apollo.js/issues"
   },
-  "homepage": "https://github.com/nspeedzy/polo.js#readme",
+  "homepage": "https://github.com/nspeedzy/apollo.js#readme",
   "keywords": [
     "discord.js",
     "bot",
